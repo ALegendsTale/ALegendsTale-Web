@@ -1,0 +1,120 @@
+body{
+	margin:0;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+	line-height: 19px; 
+	color:#FFF1CF;
+}
+
+div{
+	overflow:hidden;
+}
+
+.section1{
+width:100%;
+}
+
+.socialicons{
+	position:relative;
+	display:inline-flex;
+	background-color:rgba(0, 0, 0, .5);
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:3em;
+	padding:3px;
+	font-size:2em;
+}
+
+.socialiconslink{
+	-webkit-transition:color 0.3s ease-in-out;
+}
+
+.socialiconslink:hover{
+	background-color: transparent;
+	text-decoration: none;
+	color:rgba(85, 150, 188, 1);
+	-webkit-transition:color 0.3s ease-in-out;
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+	background-size: cover;
+	transition: 1s opacity;
+}
+
+.videobg-container{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #444;
+}
+
+.text-content-wrap{
+	background-color:#000;
+}
+
+.text-content{
+	padding:300px;
+	text-align:center;
+	color:#FFF;
+	font-size:60px;
+}
+
+.tl-wrap{
+	background-image: url("forest.jpg");
+	background-size: 100% 100%;
+}
+
+.tl-block{
+	background-color:rgba(191,210,209,.8);
+	padding:50px 100px 50px 100px;
+	margin:50px 0px 50px 0px;
+	display:block;
+	font-size:30px;
+	border-radius:5px
+}
+
+.tl-left{
+	float:left;
+}
+
+.tl-right{
+	float:right;
+}
+
+.cf{
+	clear:both;
+}
+
+}

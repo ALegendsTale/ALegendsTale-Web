@@ -1,0 +1,70 @@
+body{
+	background: url(Firewatch.jpg) no-repeat;
+	background-size:cover;
+}
+
+ul{
+	padding:0px;
+	margin:0px;
+}
+
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:rgba(128,0,128,1);
+	text-align:center;
+	vertical-align:middle;
+}
+
+a:hover{
+	color:rgba(255,77,0,1);
+	-webkit-transition:color 0.3s ease-in-out;
+}
+
+#navcontainer{
+	font-size:26px;
+}
+
+.navdiv{
+	margin:50px 100px 50px 100px;
+	position:absolute;
+	top:0;
+}
+
+.ldiv{
+	left:0;
+}
+
+.ldiv-content{
+	padding:5px;
+}
+
+.rdiv{
+	right:0;
+	background-color:rgba(0,0,0,0.05);
+	border-radius:20px;
+	padding:5px;
+}
+
+.rdiv-content{
+	padding:10px;
+}
+
+.centerlogo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:10%;
+}
+
+#centerlink{
+	/* If using text */
+	font-size:100px;
+	font-weight: 900;
+	background-color:rgba(255,255,255,.5);
+	padding:100px;
+	border-radius:1000px;
+}
